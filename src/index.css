@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Space Grotesk", sans-serif;
+}
+.bg-mobile{
+    background-image: url('/bg-main-mobile.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input{
+    @apply py-2 pl-3 border border-lightViolet rounded-md outline-none focus:border-veryDarkViolet ;
+}
+/* @apply background: linear-gradient(315deg, hsla(249, 99%, 64%, 1) 19%, hsla(325, 71%, 70%, 1) 47%, hsla(236, 67%, 55%, 1) 80%); */
